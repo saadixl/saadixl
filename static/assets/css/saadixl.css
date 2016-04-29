@@ -1,0 +1,97 @@
+body{
+	padding-top: 110px;
+}
+
+@font-face {
+    font-family: Neo-Sans-Pro;
+    src: url(fonts/Neo-Sans-Pro.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* NAV */
+nav.navbar{
+	background: url(bg/stardust.png);
+	padding: 30px 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #f5f5f5;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 4px;
+	font-size: 11px;
+}
+
+.navbar-default .navbar-nav>li:hover a{
+	color: #999;
+}
+
+.navbar-brand{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #999;	
+}
+
+.navbar-default .navbar-brand{
+	color: #f5f5f5;
+}
+
+/* INTRO */
+#intro{
+	background-color: #1f262c;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding:150px 0;
+}
+
+#intro .title{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #ddd;
+}
+
+#intro .tagline{
+    font-family: "Neo-Sans-Pro";
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #777;
+}
+
+/*ABOUT*/
+#about{
+	
+}
+
+.about-content{
+	text-align: center;
+	font-size: 22px;
+	color: #555;
+	padding: 30px 10px;
+}
+.about-content img{
+	margin:0 auto;
+	border-radius: 50%;
+}
+
+.about-content p{
+	margin-top: 20px;
+	padding: 10px 140px 0 140px;
+    font-family: "Neo-Sans-Pro";
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
