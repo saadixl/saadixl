@@ -50,7 +50,7 @@ nav.navbar{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding:150px 0;
+	padding: 210px 0;
 }
 
 #intro .title{
@@ -67,12 +67,10 @@ nav.navbar{
 	font-size: 16px;
 	letter-spacing: 2px;
 	color: #777;
+	margin-top: 20px;
 }
 
 /*ABOUT*/
-#about{
-	
-}
 
 .about-content{
 	text-align: center;
@@ -86,11 +84,11 @@ nav.navbar{
 }
 
 .about-content p{
-	margin-top: 20px;
 	padding: 10px 140px 0 140px;
     font-family: "Neo-Sans-Pro";
     font-size: 22px;
     font-weight: 200;
+    margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.5;
     color: #555;
