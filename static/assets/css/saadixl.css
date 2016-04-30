@@ -1,12 +1,18 @@
-body{
-	padding-top: 110px;
-}
-
 @font-face {
     font-family: Neo-Sans-Pro;
     src: url(fonts/Neo-Sans-Pro.ttf);
     font-style: normal;
-    font-weight: normal;
+}
+
+@font-face {
+    font-family: Neo-Sans-Pro-Light;
+    src: url(fonts/Neo-Sans-Pro-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+section{
+	padding: 50px 0;
 }
 
 /* NAV */
@@ -50,7 +56,7 @@ nav.navbar{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 210px 0;
+	padding: 320px 0 210px 0;
 }
 
 #intro .title{
@@ -63,8 +69,8 @@ nav.navbar{
 }
 
 #intro .tagline{
-    font-family: "Neo-Sans-Pro";
-	font-size: 16px;
+    font-family: "Neo-Sans-Pro-Light";
+	font-size: 22px;
 	letter-spacing: 2px;
 	color: #777;
 	margin-top: 20px;
@@ -73,23 +79,52 @@ nav.navbar{
 /*ABOUT*/
 
 .about-content{
-	text-align: center;
 	font-size: 22px;
 	color: #555;
 	padding: 30px 10px;
 }
-.about-content img{
+.about-img img{
 	margin:0 auto;
+	margin-top: 40px;
 	border-radius: 50%;
+	width: 60%;
+}
+
+.avatar-tagline{
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	padding: 0 70px;
 }
 
 .about-content p{
-	padding: 10px 140px 0 140px;
-    font-family: "Neo-Sans-Pro";
+    font-family: "Neo-Sans-Pro-Light";
     font-size: 22px;
     font-weight: 200;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 20px;
     line-height: 1.5;
     color: #555;
+    padding-right: 100px;
+}
+
+.about-signature{
+    font-family: "Neo-Sans-Pro";
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: 60px !important;
+}
+
+.about-designation{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 15px !important;
+	color: #888 !important;
+	margin-bottom: 0 !important;
+}
+
+
+/* Works */
+#works{
+	background: #f7f7f7;
 }

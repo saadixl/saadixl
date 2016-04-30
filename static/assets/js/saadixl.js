@@ -27,4 +27,17 @@ $(document).ready(function(){
     });
 
 
+
+  $(window).on("scroll", function() {
+    var windowWidth = $(window).width();
+    var fromTop = $("body").scrollTop();
+    if(fromTop>150 && windowWidth > 768 ){
+      $("nav.navbar").css("padding","0");
+    }
+    else{
+      $("nav.navbar").css("padding","30px 0");
+    }
+  });
+
+
 });
