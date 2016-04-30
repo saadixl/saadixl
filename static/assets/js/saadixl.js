@@ -41,3 +41,15 @@ $(document).ready(function(){
 
 
 });
+
+ /*Owl Carosel*/
+  $(".owl-carousel.pro").owlCarousel({
+      loop:true,
+      items:1,
+      singleItem: true
+  });
+
+$(".owl-carousel.personal").owlCarousel({
+      loop:true,
+      items:3
+});
