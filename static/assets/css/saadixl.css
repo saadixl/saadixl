@@ -166,8 +166,22 @@ nav.navbar{
 .proj-btn{
 	 font-family: "Neo-Sans-Pro-Light";
 	 margin-top: 20px;
+	 border:none;
+	 box-shadow: none;
+	 outline-color: none;
+	 color: #f1f1f1;
+	 text-shadow: none;
+	background: #444349 !important;
+	 border-bottom: 3px solid #3d3c41;
+	 padding: auto 30px;
 }
-
+.proj-btn:hover,
+.pet-btn:hover{
+	background: #2f2e33 !important;
+	border-color: #2f2e33 !important;
+	color: #ddd;
+	cursor: pointer;
+}
 .owl-controls{
 	margin-top: 40px !important;
 }
@@ -210,8 +224,102 @@ nav.navbar{
 .pet-btn{
 	 font-family: "Neo-Sans-Pro-Light";
 	 background: #444349 !important;
+	 font-weight: 200px !important;
+	 border-bottom: 3px solid #3d3c41;
+	 padding: auto 30px;
 	 color: #fff;
 	 border:none;
 	 outline:none;
 	 margin-top: 10px;
+}
+/*Contact*/
+#contact{
+	background: #1f262c;
+}
+
+.contact-left-tagline{
+	 font-family: "Neo-Sans-Pro-Light";
+	 color: #ddd !important;
+	 font-size: 35px;
+	 margin-top: 0;
+	 text-shadow: none;
+}
+
+.contact-form{
+	font-family: "Neo-Sans-Pro-Light";
+	 color: #ddd !important;
+	 padding-left: 40px;
+}
+
+.contact-form .form-group{
+	margin-bottom: 30px;
+}
+
+.contact-form input[type=text],
+.contact-form textarea{
+	background: transparent;
+	border:none;
+	box-shadow: none;
+	border-radius: 0;
+	outline:none !important;
+	border-bottom: 1px solid #515964;
+	padding-left: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding-bottom:15px !important;
+	color: #888;
+}
+
+.contact-form textarea{
+	resize: none;
+	min-height: 140px;
+}
+.contact-form textarea:focus{
+	box-shadow: none !important;
+	border:none;
+	border-bottom: 1px solid #515964;
+}
+
+.contact-btn{
+	font-family: "Neo-Sans-Pro-Light";
+	 background: #1b2227 !important;
+	 color: #ccc;
+	 text-shadow: none;
+	 border:none;
+	 outline:none;
+	 box-shadow: none;
+	 margin-top: 10px;
+	 padding: 10px 25px;
+	 border-bottom: 3px solid #181e23;
+}
+
+.contact-btn:hover{
+	background: #12161a !important;
+	border-color: #12161a !important;
+	color: #ddd;
+}
+
+ul.social{
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 30px;
+}
+
+ul.social li{
+	list-style: none;
+	font-family: "Neo-Sans-Pro-Light";
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+ul.social li:hover a{
+	color: #555;
+	text-decoration: none;
+}
+
+ul.social li a{
+	color: #888;
+}
+
+ul.social li i{
+	margin-left: 10px;
 }
