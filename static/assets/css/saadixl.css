@@ -302,7 +302,7 @@ nav.navbar{
 ul.social{
 	margin-left: 0;
 	padding-left: 0;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 ul.social li{
@@ -322,4 +322,14 @@ ul.social li a{
 
 ul.social li i{
 	margin-left: 10px;
+}
+
+footer{
+		background: #12171b;
+		padding: 80px 0;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		color: #888;
+		text-shadow: none !important;
 }
