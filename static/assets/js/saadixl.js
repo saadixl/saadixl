@@ -39,8 +39,20 @@ $(document).ready(function(){
     }
   });
 
+  //personalProj();
 
 });
+
+
+function personalProj(){
+    var windowWidth = $(window).width();
+    var fromTop = $("body").scrollTop();
+    if(windowWidth < 992 ){
+      var twiceDiv = $("#experiments .container").width();
+      alert($("#experiments .owl-item").lenght);
+      $("#experiments .owl-item").css("width", twiceDiv/2);
+    }
+}
 
  /*Owl Carosel*/
   $(".owl-carousel.pro").owlCarousel({

@@ -333,3 +333,47 @@ footer{
 		color: #888;
 		text-shadow: none !important;
 }
+
+/*ALL MEDIA QUERIES*/
+@media (max-width: 991px) {
+
+  .about-content p{
+  	padding-right:0;
+  }
+
+  .proj-detail{
+  	margin-top: 15px;
+  }
+
+  .contact-form {
+    padding-left: 0;
+  }
+
+  .owl-carousel .owl-item img {
+   	padding-left: 25px;
+    padding-right: 25px;
+  }
+
+}
+@media (max-width: 767px) {
+
+	.navbar-default .navbar-brand {
+	    margin-bottom: 20px;
+	}
+
+	.navbar-default .navbar-toggle, .navbar-toggle.collapsed {
+    	border: none !important;
+    	color: #fff !important;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #fff;
+		opacity: 1;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    	background-color: transparent;
+    	border: none;
+	}
+
+}
