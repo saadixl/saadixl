@@ -1,0 +1,28 @@
+<!-- works starts here -->
+	<section id="works">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-12 works-content">
+				<div class="owl-carousel pro">
+				{{range $i, $v := where .Data.Pages "Type" "proprojects"}}
+					<div class="item">
+		        		<div class="row">
+		        			<div class="col-md-5">
+		        				<img src="{{.Params.projectimg}}">
+		        			</div>
+		        			<div class="col-md-6 proj-detail">
+		        				<h2>{{.Params.projectname}}</h2>
+		        				<div class="proj-content">
+			        				<p>{{.Params.projectdetails}}</p>
+		        				</div>
+		        				<a href="{{.Params.projecturl}}" class="btn btn-default btn-lg proj-btn">{{.Params.buttontext}}</a>
+		        			</div>
+		        		</div>
+		        	</div>
+		        	{{end}}
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- works ends here -->

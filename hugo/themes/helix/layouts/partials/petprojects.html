@@ -1,0 +1,29 @@
+<!-- personal-project ends here -->
+	<section id="experiments">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-12">
+				<p class="section-tagline text-center">When I'm not working, I do experiment with technology!</p>
+				<div class="owl-carousel personal">
+				{{range $i, $v := where .Data.Pages "Type" "petprojects"}}
+					<div class="item">
+		        		<div class="row">
+		        			<div class="col-md-12 pet-proj">
+		        				<div class="pet-proj-img">
+		        					<img src="{{.Params.projectimg}}">
+		        				</div>
+		        				<div class="pet-content">
+		        					<h3>{{.Params.projectname}}</h3>
+			        				<p>{{.Params.projectdetails}}</p>
+			        				<a href="{{.Params.projecturl}}" class="btn btn-default btn-lg pet-btn">{{.Params.buttontext}}</a>
+		        				</div>
+		        			</div>
+		        		</div>
+		        	</div>
+		        	{{end}}
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- works ends here -->
