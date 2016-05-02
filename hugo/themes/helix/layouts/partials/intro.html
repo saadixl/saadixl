@@ -3,8 +3,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="title">Let's keep things simple.</h1>
-					<p class="tagline">I am Masudul Haque. I develop User Interfaces and I code.</p>
+					{{range $i, $v := where .Data.Pages "Type" "intro"}}
+					<h1 class="title">{{.Params.title}}</h1>
+					<p class="tagline">{{.Params.tagline}}</p>
+					{{end}}
 				</div>
 			</div>
 
