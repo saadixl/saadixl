@@ -8,10 +8,10 @@ para2 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo
 
 name ="Masudul Haque"
 
-designation = "Software Engineer"
+designation = "Front-end Developer"
 
 companyname = "Furqan Software Ltd."
 
-companyurl = "#"
+companyurl = "https://furqansoftware.com"
 
 +++
