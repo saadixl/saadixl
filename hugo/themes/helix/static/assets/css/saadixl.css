@@ -52,7 +52,7 @@ nav.navbar{
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #999;	
+	color: #999;
 }
 
 .navbar-default .navbar-brand{
@@ -232,6 +232,12 @@ nav.navbar{
 	 outline:none;
 	 margin-top: 10px;
 }
+
+.pro-project__logo{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
 /*Contact*/
 #contact{
 	background: #1f262c;
