@@ -1,0 +1,10 @@
++++
+
+projectimg = "http://i.imgur.com/V4pygvM.png"
+projectname = "Opflex Partners"
+projectdetails = "Opflex Partners is a partner management & analytics software for an Ecommerce automation software."
+projecturl = "http://i.imgur.com/V4pygvM.png"
+buttontext = "Check screenshot"
+builtwith = "React, Redux"
+builtunder = "Developed under Furqan Software"
++++

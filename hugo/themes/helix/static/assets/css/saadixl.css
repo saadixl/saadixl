@@ -144,6 +144,17 @@ nav.navbar{
 	color: #555;
 }
 
+.pet-project-meta {
+  font-weight: bold;
+  font-size: 12px !important;
+  font-family: helvetica !important;
+}
+
+.pro-project-meta {
+  font-weight: bold;
+  font-size: 16px !important;
+}
+
 .proj-content{
 	min-height: 165px;
 }
@@ -197,14 +208,13 @@ nav.navbar{
 
 
 .pet-proj-img{
-	padding:0 60px;
+	padding:0 40px;
 	text-align: center;
 	color: #555;
 }
 
 .pet-content{
 	padding:0 40px;
-	text-align: center;
 	color: #555;
 }
 
@@ -214,7 +224,6 @@ nav.navbar{
 
 .pet-proj p{
 	 font-family: "Neo-Sans-Pro-Light";
-	 font-size: 18px;
 }
 
 .pet-proj img{
