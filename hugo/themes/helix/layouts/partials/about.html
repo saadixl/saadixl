@@ -5,11 +5,12 @@
 			<div class="row">
 			<div class="col-md-4 about-img">
 				<img class="img-responsive" src="{{.Params.gravatarsrc}}">
-				<p class="avatar-tagline">If you see this avatar somewhere, then that's me!</p>
+				<p class="avatar-tagline">{{.Params.tagline}}</p>
 			</div>
 			<div class="col-md-7 about-content">
 				<p>{{.Params.para1}}</p>
 				<p>{{.Params.para2}}</p>
+				<p>{{.Params.para3}}</p>
 				<strong class="about-signature">{{.Params.name}}</strong>
 				<p class="about-designation">{{.Params.designation}}, <a class="about-company-link" href="{{.Params.companyurl}}">{{.Params.companyname}}</a></p>
 			</div>

@@ -7,4 +7,5 @@ projecturl = "http://i.imgur.com/HfqvYoPr.png"
 buttontext = "Check screenshot"
 builtwith = "Laravel, jQuery, Bootstrap"
 builtunder = "Developed under Furqan Software"
+weight = 5
 +++

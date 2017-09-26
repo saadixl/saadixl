@@ -7,4 +7,5 @@ projecturl = "http://i.imgur.com/V4pygvM.png"
 buttontext = "Check screenshot"
 builtwith = "React, Redux"
 builtunder = "Developed under Furqan Software"
+weight = 6
 +++

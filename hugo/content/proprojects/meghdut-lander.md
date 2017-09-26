@@ -7,4 +7,5 @@ projecturl = "http://www.meghdut.io"
 buttontext = "View Website"
 builtwith = "HTML, CSS, JavaScript, jQuery, SemanticUI, Hugo"
 builtunder = "Freelance Project"
+weight = 8
 +++

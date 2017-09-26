@@ -1,17 +1,21 @@
 +++
 
-gravatarsrc = "/assets/img/pp.jpg"
+gravatarsrc = "https://avatars1.githubusercontent.com/u/1633940?v=4&s=460"
 
-para1 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+para1 = "I consider myself a programming enthusiast because even before starting my career in the software industry, I was really very interested and keen about programming and software development. I always felt a hunger for developing things and solving problems by creating software. I participated in sports programming for more than a year where I practiced a lot of algorithmic programming. Then at the end of my undergrad life, I worked as a freelance web developer to insert in the software industry. Programming is not just my job, I love to do it for the fun part of it. I love the challenge of creation and new ideas. I also enjoy contributing in the open source community over the weekends."
 
-para2 = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+para2 = "I am a programmer and YES I do have a life. I love to play a lot of games. Team Fortress 2, Stardew Valley, FarCry Series are my most favourite games. I also read techy and non-techy books, explore geography etc."
+
+para3 = "That's pretty much myself."
 
 name ="Masudul Haque"
 
-designation = "Front-end Developer"
+designation = "Software Engineer"
 
 companyname = "Furqan Software Ltd."
 
 companyurl = "https://furqansoftware.com"
+
+tagline = "Life is arcade mode, so just keep playing."
 
 +++

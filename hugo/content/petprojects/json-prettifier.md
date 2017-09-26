@@ -7,5 +7,5 @@ projecturl = "https://github.com/saadixl/json-prettifier"
 buttontext = "View Project"
 builtwith = "Polymer"
 builtunder = "Personal project"
-
+weight = 4
 +++

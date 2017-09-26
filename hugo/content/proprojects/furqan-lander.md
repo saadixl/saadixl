@@ -7,4 +7,5 @@ projecturl = "https://furqansoftware.com/"
 buttontext = "Visit Website"
 builtwith = "HTML, CSS, JavaScript, jQuery, Bootstrap, Hugo"
 builtunder = "Freelance Project"
+weight = 7
 +++
