@@ -5,6 +5,7 @@ theme = "helix"
 disqusShortname = "doctorallen"
 SectionPagesMenu = "main"
 preserveTaxonomyNames = true
+
 [[menu.main]]
     name = "Resume"
     identifier = "resume"
@@ -22,3 +23,6 @@ preserveTaxonomyNames = true
 tag = "tags"
 category = "categories"
 series = "series"
+
+[params]
+contactEmail = "saadixl-at-outlook-dot-com"

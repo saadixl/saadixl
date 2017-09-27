@@ -1,5 +1,5 @@
 /*
-	Nav Smooth Scrolling
+  Nav Smooth Scrolling
 */
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -18,7 +18,6 @@ $(function() {
 
 
 $(document).ready(function(){
-
     /* Back to top */
     $(".navbar-brand").click(function(){
         $('html, body').animate({
@@ -36,9 +35,8 @@ $(document).ready(function(){
         $("nav.navbar").css("padding","30px 0");
       }
     });
-
   personalProj();
-
+  revealEmail();
 });
 
 $(window).resize(function(){
@@ -69,3 +67,10 @@ $(".owl-carousel.personal").owlCarousel({
       autoPlay: 3000,
       pagination: false
 });
+
+function revealEmail() {
+  var el = $('.contact-form form');
+  var currentAction = el.attr('action');
+  var newAction = currentAction.replace('-at-', '@').replace('-dot-', '.');
+  el.attr('action', newAction);
+}
