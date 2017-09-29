@@ -6,6 +6,6 @@ projectdetails = "jEdit is a simple web based JavaScript Editor. It is developed
 builtwith = "NodeJS, ExpressJS, Bootstrap, jQuery, Socket.io"
 builtunder = "Personal project"
 projecturl = "https://github.com/saadixl/jEdit"
-buttontext = "View Project"
+buttontext = "View project"
 weight = 3
 +++

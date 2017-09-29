@@ -5,7 +5,7 @@ projectname = "Connect-4"
 projectdetails = "4x7 Tic Tac Toe like 2D connection game with artificially intelligent opponent. There are two players in the game. One is a human player another is a robot player which can play automatically."
 builtwith = "HTML, CSS, jQuery"
 builtunder = "Personal project"
-projecturl = "https://github.com/saadixl/connect4"
-buttontext = "View Project"
+projecturl = "https://saadixl.github.io/connect4/"
+buttontext = "View project"
 weight = 6
 +++
