@@ -1,23 +1,27 @@
 @font-face {
-    font-family: Neo-Sans-Pro;
-    src: url(fonts/Neo-Sans-Pro.ttf);
-    font-style: normal;
+		font-family: Neo-Sans-Pro;
+		src: url(fonts/Neo-Sans-Pro.ttf);
+		font-style: normal;
 }
 
 @font-face {
-    font-family: Neo-Sans-Pro-Light;
-    src: url(fonts/Neo-Sans-Pro-Light.ttf);
-    font-style: normal;
-    font-weight: 200;
+		font-family: Neo-Sans-Pro-Light;
+		src: url(fonts/Neo-Sans-Pro-Light.ttf);
+		font-style: normal;
+		font-weight: 200;
 }
 
 section{
 	padding: 120px 0 40px 0;
 }
 
+.btn {
+	border-radius: 0;
+}
+
 
 .section-tagline{
-    	font-family: Neo-Sans-Pro;
+			font-family: Neo-Sans-Pro;
 		margin:20px 0 60px 0;
 		font-size: 20px;
 		color: #555;
@@ -78,7 +82,7 @@ nav.navbar{
 }
 
 #intro .tagline{
-    font-family: "Neo-Sans-Pro-Light";
+		font-family: "Neo-Sans-Pro-Light";
 	font-size: 22px;
 	letter-spacing: 2px;
 	color: #777;
@@ -112,25 +116,25 @@ nav.navbar{
 }
 
 .about-content p{
-    font-family: "Neo-Sans-Pro-Light";
-    font-size: 22px;
-    font-weight: 200;
-    margin-top: 0;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    color: #555;
-    padding-right: 100px;
+		font-family: "Neo-Sans-Pro-Light";
+		font-size: 22px;
+		font-weight: 200;
+		margin-top: 0;
+		margin-bottom: 20px;
+		line-height: 1.5;
+		color: #555;
+		padding-right: 100px;
 }
 
 .about-signature{
-    font-family: "Neo-Sans-Pro";
+		font-family: "Neo-Sans-Pro";
 	font-weight: 400;
 	font-size: 25px;
 	margin-top: 60px !important;
 }
 
 .about-designation{
-    font-family: "Neo-Sans-Pro";
+		font-family: "Neo-Sans-Pro";
 	font-size: 20px !important;
 	font-weight: 500;
 	color: #555 !important;
@@ -145,14 +149,14 @@ nav.navbar{
 }
 
 .pet-project-meta {
-  font-weight: bold;
-  font-size: 12px !important;
-  font-family: helvetica !important;
+	font-weight: bold;
+	font-size: 12px !important;
+	font-family: helvetica !important;
 }
 
 .pro-project-meta {
-  font-weight: bold;
-  font-size: 16px !important;
+	font-weight: bold;
+	font-size: 16px !important;
 }
 
 .proj-content{
@@ -164,27 +168,27 @@ nav.navbar{
 }
 
 .proj-detail h2{
-	 font-family: "Neo-Sans-Pro";
-	 margin-top: 0;
-	 margin-bottom: 20px;
+	font-family: "Neo-Sans-Pro";
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 .proj-detail p{
-	 font-family: "Neo-Sans-Pro-Light";
+	font-family: "Neo-Sans-Pro-Light";
 	font-size: 22px;
 }
 
 .proj-btn{
-	 font-family: "Neo-Sans-Pro-Light";
-	 margin-top: 20px;
-	 border:none;
-	 box-shadow: none;
-	 outline-color: none;
-	 color: #f1f1f1;
-	 text-shadow: none;
+	font-family: "Neo-Sans-Pro-Light";
+	margin-top: 20px;
+	border:none;
+	box-shadow: none;
+	outline-color: none;
+	color: #f1f1f1;
+	text-shadow: none;
 	background: #444349 !important;
-	 border-bottom: 3px solid #3d3c41;
-	 padding: auto 30px;
+	border-bottom: 3px solid #3d3c41;
+	padding: auto 30px;
 }
 .proj-btn:hover,
 .pet-btn:hover{
@@ -219,32 +223,31 @@ nav.navbar{
 }
 
 .pet-proj h3{
-	 font-family: "Neo-Sans-Pro";
+	font-family: "Neo-Sans-Pro";
 }
 
 .pet-proj p{
-	 font-family: "Neo-Sans-Pro-Light";
+	font-family: "Neo-Sans-Pro-Light";
 }
 
 .pet-proj img{
-	border-radius: 5px;
+
 }
 
 .pet-btn{
-	 font-family: "Neo-Sans-Pro-Light";
-	 background: #444349 !important;
-	 font-weight: 200px !important;
-	 border-bottom: 3px solid #3d3c41;
-	 padding: auto 30px;
-	 color: #fff;
-	 border:none;
-	 outline:none;
-	 margin-top: 10px;
+	font-family: "Neo-Sans-Pro-Light";
+	background: #444349 !important;
+	font-weight: 200px !important;
+	border-bottom: 3px solid #3d3c41;
+	padding: auto 30px;
+	color: #fff;
+	border:none;
+	outline:none;
+	margin-top: 10px;
 }
 
 .pro-project__logo{
-    border-radius: 10px;
-    border: 1px solid #ddd;
+		border: 1px solid #ddd;
 }
 
 /*Contact*/
@@ -253,17 +256,17 @@ nav.navbar{
 }
 
 .contact-left-tagline{
-	 font-family: "Neo-Sans-Pro-Light";
-	 color: #ddd !important;
-	 font-size: 35px;
-	 margin-top: 0;
-	 text-shadow: none;
+	font-family: "Neo-Sans-Pro-Light";
+	color: #ddd !important;
+	font-size: 35px;
+	margin-top: 0;
+	text-shadow: none;
 }
 
 .contact-form{
 	font-family: "Neo-Sans-Pro-Light";
-	 color: #ddd !important;
-	 padding-left: 40px;
+	color: #ddd !important;
+	padding-left: 40px;
 }
 
 .contact-form .form-group{
@@ -297,15 +300,15 @@ nav.navbar{
 
 .contact-btn{
 	font-family: "Neo-Sans-Pro-Light";
-	 background: #1b2227 !important;
-	 color: #ccc;
-	 text-shadow: none;
-	 border:none;
-	 outline:none;
-	 box-shadow: none;
-	 margin-top: 10px;
-	 padding: 10px 25px;
-	 border-bottom: 3px solid #181e23;
+	background: #1b2227 !important;
+	color: #ccc;
+	text-shadow: none;
+	border:none;
+	outline:none;
+	box-shadow: none;
+	margin-top: 10px;
+	padding: 10px 25px;
+	border-bottom: 3px solid #181e23;
 }
 
 .contact-btn:hover{
@@ -352,53 +355,53 @@ footer{
 /*ALL MEDIA QUERIES*/
 @media (max-width: 991px) {
 
-  #about {
-    padding: 60px 30px;
-  }
-
-  .avatar-tagline {
-	    padding: 0;
+	#about {
+		padding: 60px 30px;
 	}
-  .about-content p{
-  	padding-right:0;
-  }
 
-  .proj-detail{
-  	margin-top: 15px;
-  }
+	.avatar-tagline {
+			padding: 0;
+	}
+	.about-content p{
+		padding-right:0;
+	}
 
-  .contact-form {
-    padding-left: 0;
-  }
+	.proj-detail{
+		margin-top: 15px;
+	}
 
-  .owl-carousel .owl-item img {
-   	padding-left: 25px;
-    padding-right: 25px;
-  }
+	.contact-form {
+		padding-left: 0;
+	}
 
-  .contact-left-tagline{
-  	text-align: center;
-    padding: 0 30px;
-  }
+	.owl-carousel .owl-item img {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 
-   ul.social{
-   	text-align: center;
-   }
+	.contact-left-tagline{
+		text-align: center;
+		padding: 0 30px;
+	}
 
-  ul.social li{
-    margin-bottom: 15px;
-  }
+	ul.social{
+		text-align: center;
+	}
+
+	ul.social li{
+		margin-bottom: 15px;
+	}
 
 }
 @media (max-width: 767px) {
 
 	.navbar-default .navbar-brand {
-	    margin-bottom: 20px;
+			margin-bottom: 20px;
 	}
 
 	.navbar-default .navbar-toggle, .navbar-toggle.collapsed {
-    	border: none !important;
-    	color: #fff !important;
+			border: none !important;
+			color: #fff !important;
 	}
 
 	.navbar-default .navbar-toggle .icon-bar{
@@ -407,8 +410,8 @@ footer{
 	}
 
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    	background-color: transparent;
-    	border: none;
+			background-color: transparent;
+			border: none;
 	}
 
 	.contact-form{

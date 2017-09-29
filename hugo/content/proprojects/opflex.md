@@ -1,7 +1,7 @@
 +++
 
-projectimg = "http://i.imgur.com/HfqvYoPr.png"
-projectname = "Opflex Partners"
+projectimg = "assets/img/opflex.png"
+projectname = "Opflex"
 projectdetails = "Opflex is an E-commerce automation software. It manages orders, customers, leads, deliveries, shipments etc."
 projecturl = "http://i.imgur.com/HfqvYoPr.png"
 buttontext = "Check screenshot"

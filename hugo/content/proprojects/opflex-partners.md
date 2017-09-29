@@ -1,6 +1,6 @@
 +++
 
-projectimg = "http://i.imgur.com/V4pygvM.png"
+projectimg = "assets/img/opflex-partners.png"
 projectname = "Opflex Partners"
 projectdetails = "Opflex Partners is a partner management & analytics software for an Ecommerce automation software."
 projecturl = "http://i.imgur.com/V4pygvM.png"
