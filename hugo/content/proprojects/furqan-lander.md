@@ -6,6 +6,6 @@ projectdetails = "FurqanSoftware.com is the website of Furqan Software. It's dev
 projecturl = "https://furqansoftware.com/"
 buttontext = "Visit Website"
 builtwith = "HTML, CSS, JavaScript, jQuery, Bootstrap, Hugo"
-builtunder = "Freelance Project"
+builtunder = "A freelance project"
 weight = 7
 +++

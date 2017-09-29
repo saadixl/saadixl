@@ -149,14 +149,20 @@ nav.navbar{
 }
 
 .pet-project-meta {
+	font-size: 13px !important;
+}
+
+.pro-project-meta-label, .pet-project-meta-label {
+	font-size: 14px !important;
+	margin-bottom: 0;
 	font-weight: bold;
-	font-size: 12px !important;
 	font-family: helvetica !important;
+	color: #666;
 }
 
 .pro-project-meta {
 	font-weight: bold;
-	font-size: 16px !important;
+	font-size: 15px !important;
 }
 
 .proj-content{

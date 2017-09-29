@@ -6,6 +6,6 @@ projectdetails = "Drafts is a problem edit service of Toph. Toph is a sports pro
 projecturl = "https://drafts.toph.com/"
 buttontext = "Visit Website"
 builtwith = "React, Redux"
-builtunder = "Developed under Furqan Software"
+builtunder = "A project of Furqan Software"
 weight = 9
 +++

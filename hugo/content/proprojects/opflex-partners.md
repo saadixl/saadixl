@@ -6,6 +6,6 @@ projectdetails = "Opflex Partners is a partner management & analytics software f
 projecturl = "http://i.imgur.com/V4pygvM.png"
 buttontext = "Check screenshot"
 builtwith = "React, Redux"
-builtunder = "Developed under Furqan Software"
+builtunder = "A project of Furqan Software"
 weight = 6
 +++

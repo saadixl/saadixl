@@ -6,6 +6,6 @@ projectdetails = "meghdut.io is the landing page of Meghdut Analytics. The websi
 projecturl = "http://www.meghdut.io"
 buttontext = "View Website"
 builtwith = "HTML, CSS, JavaScript, jQuery, SemanticUI, Hugo"
-builtunder = "Freelance Project"
+builtunder = "A freelance project"
 weight = 8
 +++

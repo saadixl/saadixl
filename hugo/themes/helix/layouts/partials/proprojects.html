@@ -14,9 +14,10 @@
 										<h2>{{.Params.projectname}}</h2>
 										<div class="proj-content">
 											<p>{{.Params.projectdetails}}</p>
-											<br />
-											<p class="pro-project-meta"><span class="glyphicon glyphicon-cog"></span> {{.Params.builtwith}}</p>
-											<p class="pro-project-meta"><span class="glyphicon glyphicon-info-sign"></span> {{.Params.builtunder}}</p>
+											<p class="pro-project-meta-label">Built with</p>
+											<p class="pro-project-meta">{{.Params.builtwith}}</p>
+											<p class="pro-project-meta-label">Developed as</p>
+											<p class="pro-project-meta">{{.Params.builtunder}}</p>
 										</div>
 										<a target="_blank" href="{{.Params.projecturl}}" class="btn btn-default proj-btn">{{.Params.buttontext}}</a>
 									</div>

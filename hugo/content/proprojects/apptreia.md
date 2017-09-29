@@ -6,6 +6,6 @@ projectdetails = "Appteria is a visitor analytics web application. Appteria prov
 projecturl = "#"
 buttontext = "Project undisclosed"
 builtwith = "React, Redux"
-builtunder = "Furqan Software"
+builtunder = "A project of Furqan Software"
 weight = 2
 +++
