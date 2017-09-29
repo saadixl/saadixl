@@ -6,6 +6,7 @@
 					{{range $i, $v := where .Data.Pages "Type" "intro"}}
 					<h1 class="title">{{.Params.title}}</h1>
 					<p class="tagline">{{.Params.tagline}}</p>
+					<a href="#about" class="down-arrow glyphicon glyphicon-circle-arrow-down"></a>
 					{{end}}
 				</div>
 			</div>
