@@ -1,9 +1,9 @@
 +++
 
 projectimg = "assets/img/proj.png"
-projectname = "JSON Prettifier"
+projectname = "JSON Groomer"
 projectdetails = "A small web application for representing JSON object in pretty way."
-projecturl = "https://github.com/saadixl/json-prettifier"
+projecturl = "https://saadixl.github.io/json-groomer/build/default"
 buttontext = "View project"
 builtwith = "Polymer"
 builtunder = "Personal project"
