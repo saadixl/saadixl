@@ -65,8 +65,8 @@ nav.navbar{
 
 /* INTRO */
 #intro{
-	/*background-color: #1f262c;*/
-	background: url(bg/stockbg.png) no-repeat center center fixed;
+	background-color: #1f262c;
+	/*background: blue;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

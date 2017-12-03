@@ -10,12 +10,12 @@ para3 = "That's pretty much myself."
 
 name ="Masudul Haque"
 
-designation = "Software Engineer"
+designation = ""
 
-companyname = "Furqan Software Ltd."
+companyname = ""
 
-companyurl = "https://furqansoftware.com"
+companyurl = ""
 
-tagline = "Life is arcade mode, so just keep playing."
+tagline = "Keep on playing life in arcade mode"
 
 +++
