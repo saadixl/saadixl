@@ -1,7 +1,8 @@
-var gulp = require('gulp');
-var htmlmin = require('gulp-htmlmin');
+const gulp = require('gulp');
+const htmlmin = require('gulp-htmlmin');
+const imagemin = require('gulp-imagemin');
 
-gulp.task('html', function() {
+gulp.task('html', () => {
   return gulp.src('public/**/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest(function(file) {
@@ -9,8 +10,8 @@ gulp.task('html', function() {
     }));
 });
 
-gulp.task('generate-service-worker', function(callback) {
-  var swPrecache = require('sw-precache');
+gulp.task('generate-service-worker', (callback) => {
+  const swPrecache = require('sw-precache');
   var rootDir = 'public';
 
   swPrecache.write(`${rootDir}/service-worker.js`, {
@@ -19,4 +20,14 @@ gulp.task('generate-service-worker', function(callback) {
   }, callback);
 });
 
-gulp.task('default', [ 'html', 'generate-service-worker']);
+gulp.task('img-min', () =>
+    gulp.src('public/assets/img/*')
+        .pipe(imagemin({
+          optimizationLevel: 5
+        }))
+        .pipe(gulp.dest(function(file) {
+          return file.base;
+        }))
+);
+
+gulp.task('default', [ 'html', 'generate-service-worker', 'img-min']);
