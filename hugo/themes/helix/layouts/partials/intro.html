@@ -2,7 +2,7 @@
 	<section id="intro">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-offset-7 col-md-5 text-right">
 					{{range $i, $v := where .Data.Pages "Type" "intro"}}
 					<h1 class="title">{{.Params.title}}</h1>
 					<p class="tagline">{{.Params.tagline}}</p>
