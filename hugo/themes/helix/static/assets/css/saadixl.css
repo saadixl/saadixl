@@ -112,6 +112,7 @@ nav.navbar{
 	font-size: 22px;
 	color: #555;
 	padding: 30px 10px;
+  column-count: 2;
 }
 .about-img img{
 	margin:0 auto;
@@ -128,7 +129,8 @@ nav.navbar{
 	padding: 0 70px;
 }
 
-.about-content p{
+.about-content p {
+    text-align: justify;
 		font-family: "Neo-Sans-Pro-Light";
 		font-size: 22px;
 		font-weight: 200;
@@ -136,18 +138,19 @@ nav.navbar{
 		margin-bottom: 20px;
 		line-height: 1.5;
 		color: #555;
-		padding-right: 100px;
 }
 
 .about-signature{
-		font-family: "Neo-Sans-Pro";
+  font-family: "Neo-Sans-Pro";
 	font-weight: 400;
 	font-size: 25px;
 	margin-top: 60px !important;
 }
 
-.about-designation{
-		font-family: "Neo-Sans-Pro";
+.about-designation {
+  margin-top: 40px !important;
+  text-align: right !important;
+	font-family: "Neo-Sans-Pro";
 	font-size: 20px !important;
 	font-weight: 500;
 	color: #555 !important;
