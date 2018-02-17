@@ -1,0 +1,66 @@
+[debug] [2018-02-17T17:32:20.203Z] ----------------------------------------------------------------------
+[debug] [2018-02-17T17:32:20.208Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2018-02-17T17:32:20.209Z] CLI Version:   3.17.4
+[debug] [2018-02-17T17:32:20.209Z] Platform:      darwin
+[debug] [2018-02-17T17:32:20.209Z] Node Version:  v6.11.0
+[debug] [2018-02-17T17:32:20.210Z] Time:          Sat Feb 17 2018 23:32:20 GMT+0600 (+06)
+[debug] [2018-02-17T17:32:20.210Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-17T17:32:20.227Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-17T17:32:20.227Z] > authorizing via signed-in user
+[debug] [2018-02-17T17:32:20.230Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-17T17:32:20.230Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/gF_dFSvstG21r_kVfsB9LlDto7FvhtAPBsLGvNLdlok',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Feb 17 2018 23:32:20 GMT+0600 (+06)
+[debug] [2018-02-17T17:32:21.080Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T17:32:21.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/saadixl-lander  
+  
+ Sat Feb 17 2018 23:32:21 GMT+0600 (+06)
+[debug] [2018-02-17T17:32:28.726Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T17:32:28.727Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/saadixl-lander/tokens  
+  
+ Sat Feb 17 2018 23:32:28 GMT+0600 (+06)
+[debug] [2018-02-17T17:32:29.882Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'saadixl-lander'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-02-17T17:32:37.992Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/saadixl-lander/uploads/-L5Zom_Xz70fpqSuAR4j?fileCount=63&message=  
+  
+ Sat Feb 17 2018 23:32:37 GMT+0600 (+06)
+[debug] [2018-02-17T17:33:11.553Z] Error: getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
+[debug] [2018-02-17T17:33:42.893Z] ----------------------------------------------------------------------
+[debug] [2018-02-17T17:33:42.896Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2018-02-17T17:33:42.897Z] CLI Version:   3.17.4
+[debug] [2018-02-17T17:33:42.897Z] Platform:      darwin
+[debug] [2018-02-17T17:33:42.897Z] Node Version:  v6.11.0
+[debug] [2018-02-17T17:33:42.897Z] Time:          Sat Feb 17 2018 23:33:42 GMT+0600 (+06)
+[debug] [2018-02-17T17:33:42.897Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-17T17:33:42.912Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-17T17:33:42.912Z] > authorizing via signed-in user
+[debug] [2018-02-17T17:33:42.914Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/saadixl-lander  
+  
+ Sat Feb 17 2018 23:33:42 GMT+0600 (+06)
+[debug] [2018-02-17T17:33:44.238Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T17:33:44.239Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/saadixl-lander/tokens  
+  
+ Sat Feb 17 2018 23:33:44 GMT+0600 (+06)
+[debug] [2018-02-17T17:33:45.336Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'saadixl-lander'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-02-17T17:33:47.877Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/saadixl-lander/uploads/-L5Zp2cJ_QFSt9FLBfPJ?fileCount=63&message=  
+  
+ Sat Feb 17 2018 23:33:47 GMT+0600 (+06)
