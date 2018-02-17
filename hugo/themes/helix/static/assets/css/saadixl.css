@@ -476,4 +476,8 @@ footer{
 	.down-arrow {
 		display: none;
 	}
+
+	.nav.navbar {
+		padding: 0;
+	}
 }
