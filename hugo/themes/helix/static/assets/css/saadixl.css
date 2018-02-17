@@ -484,4 +484,13 @@ footer{
   section {
       padding: 50px 0 40px 0;
   }
+
+  #works .owl-stage {
+    height: 600px !important;
+    overflow-y: hidden !important;
+  }
+
+  .proj-detail p {
+    font-size: 15px;
+  }
 }

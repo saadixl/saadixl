@@ -24,26 +24,26 @@ $(document).ready(function(){
           scrollTop: 0
         }, 1000);
     });
-
-    $(window).on("scroll", function() {
-      var windowWidth = $(window).width();
-      var fromTop = $("body").scrollTop();
-      if(fromTop>150 && windowWidth > 768 ){
-        $("nav.navbar").css("padding","0");
-      }
-      else{
-        $("nav.navbar").css("padding","30px 0");
-      }
-    });
   personalProj();
   revealEmail();
+});
+
+$(window).scroll(function() {
+  var windowWidth = $(window).width();
+  var fromTop = $("body").scrollTop();
+  if((fromTop>150 || $(window).scrollTop() > 150) && windowWidth > 768 ){
+    $("nav.navbar").css("padding","0");
+  }
+  else{
+    $("nav.navbar").css("padding","30px 0");
+  }
 });
 
 $(window).resize(function(){
   personalProj();
 });
 
-function personalProj(){
+function personalProj() {
     var windowWidth = $(window).width();
     var fromTop = $("body").scrollTop();
     if(windowWidth < 992 ){
