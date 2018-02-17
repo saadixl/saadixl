@@ -46,27 +46,39 @@ $(window).resize(function(){
 function personalProj() {
     var windowWidth = $(window).width();
     var fromTop = $("body").scrollTop();
-    if(windowWidth < 992 ){
-      var twiceDiv = $("#experiments .container").width();
-      var owlContainer = $("#experiments .owl-item").length * twiceDiv;
-      $(".owl-stage").css("width", owlContainer);
-      $("#experiments .owl-item").css("width", twiceDiv/2);
-    }
+    // if(windowWidth < 992 ){
+    //   var twiceDiv = $("#experiments .container").width();
+    //   var owlContainer = $("#experiments .owl-item").length * twiceDiv;
+    //   $(".owl-stage").css("width", owlContainer);
+    //   $("#experiments .owl-item").css("width", twiceDiv/2);
+    // }
 }
 
  /*Owl Carosel*/
-  $(".owl-carousel.pro").owlCarousel({
-      loop:true,
-      items:1,
-      autoPlay: 3000,
-      singleItem: true
-  });
-
-$(".owl-carousel.personal").owlCarousel({
-      loop:true,
-      autoPlay: 3000,
-      pagination: false
+$(".owl-carousel.pro").owlCarousel({
+    loop:true,
+    items:1,
+    autoPlay: 3000,
+    singleItem: true
 });
+
+
+var personalOwlConfig = {
+  loop:true,
+  autoPlay: 3000,
+  pagination: false
+};
+
+if($(window).width() < 768) {
+  personalOwlConfig = {
+    loop:true,
+    items:1,
+    autoPlay: 3000,
+    pagination: false
+  };
+}
+
+$(".owl-carousel.personal").owlCarousel(personalOwlConfig);
 
 function revealEmail() {
   var el = $('.contact-form form');

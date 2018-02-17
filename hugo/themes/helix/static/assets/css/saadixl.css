@@ -447,11 +447,12 @@ footer{
 
 	.about-content p {
 		font-size: 16px;
-		text-align: left;
+		text-align: justify;
 	}
 
 	#about {
 		padding-top: 0;
+    padding-bottom: 20px;
 	}
 
 	#intro {
@@ -490,7 +491,13 @@ footer{
     overflow-y: hidden !important;
   }
 
-  .proj-detail p {
+  .proj-detail p,
+  .pet-proj p {
     font-size: 15px;
+    text-align: justify;
+  }
+
+  .contact-left-tagline {
+    font-size: 30px;
   }
 }
