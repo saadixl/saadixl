@@ -478,6 +478,10 @@ footer{
 	}
 
 	nav.navbar {
-		padding: 0;
+		padding: 0 !important;
 	}
+
+  section {
+      padding: 50px 0 40px 0;
+  }
 }

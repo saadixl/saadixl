@@ -58,7 +58,7 @@ function personalProj(){
   $(".owl-carousel.pro").owlCarousel({
       loop:true,
       items:1,
-        autoPlay: 3000,
+      autoPlay: 3000,
       singleItem: true
   });
 
