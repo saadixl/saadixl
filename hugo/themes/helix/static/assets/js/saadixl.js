@@ -34,7 +34,7 @@ $(window).scroll(function() {
   if((fromTop>150 || $(window).scrollTop() > 150) && windowWidth > 768 ){
     $("nav.navbar").css("padding","0");
   }
-  else{
+  else if(windowWidth > 768) {
     $("nav.navbar").css("padding","30px 0");
   }
 });
