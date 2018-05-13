@@ -1,6 +1,6 @@
 +++
 date = "2015-10-18T09:32:57+06:00"
-title = "Test"
+title = "Ipsum opened my eyes"
 tags = ["travel"]
 excerpt = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 cover = "/images/hello-world-image1.png"
