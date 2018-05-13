@@ -1,5 +1,5 @@
 +++
 
-footertext = "Designed & Developed by saadixl"
+footertext = "A.M. Masudul Haque All rights reserved"
 
 +++

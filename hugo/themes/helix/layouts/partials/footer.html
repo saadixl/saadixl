@@ -1,6 +1,6 @@
 <footer>
 {{range $i, $v := where .Data.Pages "Type" "footer"}}
-		<p>{{.Params.footertext}}</p>
+		<p>&copy; <script>document.write(new Date().getFullYear())</script> {{.Params.footertext}}</p>
 {{end}}
 </footer>
 
