@@ -1,15 +1,13 @@
 <footer>
-{{range $i, $v := where .Data.Pages "Type" "footer"}}
-		<p>&copy; <script>document.write(new Date().getFullYear())</script> {{.Params.footertext}}</p>
-{{end}}
+  <p>&copy; <script>document.write(new Date().getFullYear())</script> A.M. Masudul Haque All rights reserved</p>
 </footer>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="assets/owlcarousel/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="assets/js/saadixl.js"></script>
+	<script src="{{.Site.BaseURL}}assets/owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="{{.Site.BaseURL}}assets/js/saadixl.js"></script>
 	<script>
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {

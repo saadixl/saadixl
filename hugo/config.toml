@@ -1,24 +1,25 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Official website of Masudul Haque"
 theme = "helix"
-disqusShortname = "doctorallen"
-SectionPagesMenu = "main"
+disqusShortname = "saadixl"
 preserveTaxonomyNames = true
 
 [[menu.main]]
-    name = "Resume"
-    identifier = "resume"
-    url = "/"
+name = "About"
+url = "/#about"
+weight = 1
+
 [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
+name = "Travel Stories"
+url = "/travel-stories"
+weight = 2
+
 [[menu.main]]
-    name = "GitHub"
-    weight = 100
-    identifier = "github"
-    url = "https://github.com/doctorallen/"
+name = "Contact"
+url = "/#contact"
+weight = 3
+
 [taxonomies]
 tag = "tags"
 category = "categories"

@@ -15,6 +15,63 @@ section{
 	padding: 120px 0 40px 0;
 }
 
+section.banner {
+  padding-top: 110px;
+  padding-bottom: 10px;
+}
+
+.banner-heading {
+  background: #d74343;
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 80px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+}
+
+.section-section {
+  padding-top: 10px;
+}
+
+/* Blog design */
+
+.blog-post {
+  margin: 30px 0;
+}
+
+.post-content, .post-excerpt {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 15px;
+  color: #555;
+}
+
+.post-metadata, .post-continue {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-metadata a, .post-continue a {
+  color: #d32f2f;
+}
+
+.post-title a {
+  color: #555;
+}
+
+.post-title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.tags-link {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* Blog design ends */
+
 .btn {
 	border-radius: 0;
 }
@@ -40,7 +97,6 @@ nav.navbar{
 	color: #f5f5f5 !important;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 4px;
 	font-size: 11px;
 }
 
@@ -108,10 +164,10 @@ nav.navbar{
 	padding: 60px 0;
 }
 
-.about-content{
-	font-size: 18px;
+.about-content {
+	font-size: 16px;
 	color: #555;
-	padding: 30px 130px;
+	/* padding: 30px 130px; */
 }
 
 .about-img img{
@@ -132,7 +188,7 @@ nav.navbar{
 .about-content p {
 		text-align: justify;
 		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
+		font-size: 15px;
 		margin-top: 0;
 		margin-bottom: 20px;
 		line-height: 2;

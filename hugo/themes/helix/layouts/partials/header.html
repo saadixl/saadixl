@@ -4,7 +4,7 @@
 
 		<title>Masudul Haque</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico"/>
+		<link rel="shortcut icon" type="image/ico" href="{{.Site.BaseURL}}assets/img/favicon.ico"/>
 		<!-- Google Web Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
@@ -13,9 +13,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
-				<link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/saadixl.css">
+		<link rel="stylesheet" href="{{.Site.BaseURL}}assets/owlcarousel/owl.carousel.css">
+				<link rel="stylesheet" href="{{.Site.BaseURL}}assets/owlcarousel/owl.theme.default.min.css">
+		<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}assets/css/saadixl.css">
 
 	</head>
 	<body>
@@ -37,9 +37,15 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav"></ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about">About</a></li>
-					<!-- <li><a href="#works">Works</a></li> -->
-					<li><a href="#contact">Contact</a></li>
+					{{range .Site.Menus.main}}
+						<li>
+							{{if hasPrefix .URL "/#"}}
+								<a class="page-scroll" href="{{if eq $.RelPermalink "/"}}{{replaceRE "^/" "" .URL}}{{else}}{{.URL}}{{end}}">{{.Name}}</a>
+							{{else}}
+								<a href="{{.URL}}">{{.Name}}</a>
+							{{end}}
+						</li>
+					{{end}}
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->

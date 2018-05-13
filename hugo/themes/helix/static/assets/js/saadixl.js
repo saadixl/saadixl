@@ -83,6 +83,8 @@ $(".owl-carousel.personal").owlCarousel(personalOwlConfig);
 function revealEmail() {
   var el = $('.contact-form form');
   var currentAction = el.attr('action');
-  var newAction = currentAction.replace('-at-', '@').replace('-dot-', '.');
-  el.attr('action', newAction);
+  if(currentAction) {
+    var newAction = currentAction.replace('-at-', '@').replace('-dot-', '.');
+    el.attr('action', newAction);
+  }
 }
