@@ -16,9 +16,14 @@ url = "/travel-stories"
 weight = 2
 
 [[menu.main]]
+name = "Memoirs"
+url = "/memoirs"
+weight = 3
+
+[[menu.main]]
 name = "Contact"
 url = "/#contact"
-weight = 3
+weight = 4
 
 [taxonomies]
 tag = "tags"

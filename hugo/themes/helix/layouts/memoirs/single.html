@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="blog-post">
+					<h1 class="post-title">{{.Title}}</h1>
+					<h5 class="post-metadata">{{dateFormat "January 2, 2006" .Date}} &middot; {{range .Params.tags}}<a class="tags-link" href="/tags/{{. | urlize}}/">{{.}}</a> {{end}}</h5>
+					<div class="post-content">{{.Content}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ partial "footer" . }}
