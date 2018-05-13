@@ -522,9 +522,18 @@ footer{
 		padding: 10px 40px;
 	}
 
-	.about-content {
+	#about .desc {
 		column-count: 1;
 	}
+
+  #about .title {
+		text-align: left;
+    font-size: 30px;
+	}
+
+  section.banner {
+    padding-top: 70px;
+  }
 
 	.about-content p {
 		font-size: 16px;
