@@ -1,0 +1,18 @@
+<!-- works starts here -->
+	<section id="career">
+		<div class="container">
+			<p class="text-center bigtitle">Know about the professional me.</p>
+			<div class="title_line"></div>
+			{{range $i, $v := where .Data.Pages "Type" "career"}}
+				<div class="row item">
+					<div class="col-md-offset-2 col-md-3">
+						<h2 class="title"><a href="{{.Params.link}}" target="_blank">{{.Params.title}}</a></h2>
+					</div>
+					<div class="col-md-5">
+						<p class="detail">{{.Params.detail}}</p>
+					</div>
+				</div>
+			{{end}}
+		</div>
+	</section>
+	<!-- works ends here -->

@@ -35,6 +35,14 @@ section.banner {
   padding-top: 10px;
 }
 
+.title_line {
+  margin:0 auto;
+  margin-bottom: 40px;
+  background: #d32f2f;
+  width: 100px;
+  height: 3px;
+}
+
 /* Blog design */
 
 .blog-post {
@@ -218,7 +226,6 @@ nav.navbar{
 
 #about .title {
   font-size: 40px;
-  margin-bottom: 40px;
 }
 
 .about-signature{
@@ -240,9 +247,49 @@ nav.navbar{
 
 
 /* Works */
-#works{
-	background: #f5f5f5;
+#career {
 	color: #555;
+  padding-top: 65px;
+}
+
+#career .item {
+  margin-bottom: 30px;
+}
+
+#career .tagline {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#career .bigtitle {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#career .title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+#career .title a {
+  color: #d32f2f;
+}
+
+
+#career .detail {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 15px;
+  color: #555;
 }
 
 .pet-project-meta {
