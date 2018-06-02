@@ -579,9 +579,20 @@ footer{
 		column-count: 1;
 	}
 
-  #about .title {
-		text-align: left;
+  #about .tagline {
+    text-align: center;
     font-size: 30px;
+	}
+
+  #about .title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+	}
+
+  #career .bigtitle {
+    text-align: center;
+    font-size: 20px;
 	}
 
   section.banner {
