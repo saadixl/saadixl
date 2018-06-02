@@ -165,7 +165,7 @@ nav.navbar{
 }
 
 #about .desc {
-  column-count: 2;
+  column-count: 1;
   text-align: justify;
 }
 
@@ -357,7 +357,7 @@ nav.navbar{
 .contact-left-tagline{
 	font-family: "Neo-Sans-Pro-Light";
 	color: #ddd !important;
-	font-size: 35px;
+	font-size: 25px;
 	margin-top: 0;
 	text-shadow: none;
 }

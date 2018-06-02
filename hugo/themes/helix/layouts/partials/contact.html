@@ -3,8 +3,8 @@
 	<section id="contact">
 		<div class="container">
 			<div class="row">
-			<div class="col-md-4 text-right">
-				<h2 class="contact-left-tagline">Feel free to drop a line</h2>
+			<div class="col-md-offset-2 col-md-3 text-right">
+				<h3 class="contact-left-tagline">Feel free to drop a line</h3>
 				<ul class="social">
 					<li><a target="_blank" href="{{.Params.facebook}}">Facebook <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 					<li><a target="_blank" href="{{.Params.twitter}}">Twitter <i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
@@ -13,7 +13,7 @@
 					<li><a target="_blank" href="{{.Params.reddit}}">Reddit <i class="fa fa-reddit" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
-			<div class="col-md-7 contact-form">
+			<div class="col-md-5 contact-form">
 				<form action="https://formspree.io/{{.Site.Params.contactEmail}}" method="POST">
 				  <div class="form-group" >
 				    <input type="text" class="form-control" name="name" placeholder="Name">
@@ -27,7 +27,7 @@
 				  <div class="form-group">
 				    <textarea class="form-control" name="message" placeholder="Message"></textarea>
 				  </div>
-				  <button type="submit" class="btn btn-default btn-lg contact-btn">Send message</button>
+				  <button type="submit" class="btn btn-default btn-lg btn-block contact-btn">Send message</button>
 				</form>
 			</div>
 		</div>

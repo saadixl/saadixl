@@ -1,6 +1,6 @@
 +++
 
 title = "Masudul Haque"
-tagline = "< This guy!"
+tagline = "It's hard to describe myself using a tagline. You better explore the site!"
 
 +++
