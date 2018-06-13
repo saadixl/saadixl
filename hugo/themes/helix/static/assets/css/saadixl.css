@@ -49,6 +49,12 @@ section.banner {
   margin: 30px 0;
 }
 
+.blog-post p img {
+  margin: 0 auto;
+  display: block;
+  height: 400px;
+}
+
 .post-content, .post-excerpt {
   text-align: justify;
   font-family: 'Montserrat', sans-serif;

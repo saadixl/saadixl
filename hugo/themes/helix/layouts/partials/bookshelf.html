@@ -1,0 +1,6 @@
+<div class="blog-post">
+	<h2 class="post-title"><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+	<h5 class="post-metadata">{{range .Params.tags}}<a class="tags-link" href="/tags/{{. | urlize}}/">{{.}}</a> {{end}}</h5>
+	<div class="post-excerpt">{{slicestr .Summary 0 280}}</div>
+	<div class="post-continue"><a href="{{.RelPermalink}}">Read post</a></div>
+</div>

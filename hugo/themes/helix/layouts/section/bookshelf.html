@@ -1,0 +1,22 @@
+{{ partial "header" . }}
+<section class="banner">
+	<div class="text-center">
+		<h1 class="banner-heading">Bookshelf</h1>
+	</div>
+</section>
+
+<section class="section-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				{{range $i, $page := .Paginator.Pages}}
+					{{if gt $i 0}}<div class="separator"></div>{{end}}
+					{{partial "bookshelf.html" .}}
+          <hr />
+				{{end}}
+				{{template "_internal/pagination.html" .}}
+			</div>
+		</div>
+	</div>
+</section>
+{{ partial "footer" . }}
